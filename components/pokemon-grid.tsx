@@ -35,7 +35,7 @@ export function PokemonGrid({ pokemonList }: PokemonGridProps) {
             value={searchText}
             autoComplete="off"
             id="pokemonName"
-            placeholder="Charizard, Pikachu, etc."
+            placeholder="Pika pika pika :p"
             onChange={(e) => setSearchText(e.target.value)}
           />
         </div>
